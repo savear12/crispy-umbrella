@@ -1,0 +1,11 @@
+isPositive=True
+balance=100
+#assuming the account holder has overdraft protection
+withdrawAmount=45
+newBalance= balance - withdrawAmount
+if(newBalance<0):
+    isPositive=False
+    print("alert:your balance is negative")
+else:
+    print(newBalance," is your positive balance")
+
